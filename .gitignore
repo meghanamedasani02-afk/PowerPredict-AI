@@ -1,0 +1,33 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.env
+.env.*
+!.env.example
+
+# Node and Vite
+node_modules/
+frontend/dist/
+dist/
+
+# Editors and operating systems
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Local databases and logs
+*.db
+*.sqlite
+*.sqlite3
+npm-debug.log*
+
+# Secrets
+secrets/
+
+# Older nested project copy
+/PowerPredict-AI/
